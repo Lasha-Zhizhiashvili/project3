@@ -31,6 +31,10 @@ header{
     border-radius: 3px;
 }
 
+.activee{
+    color: rgb(0, 0, 0);
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -141,7 +145,7 @@ nav button:hover{
     display: flex;
     align-items: center;
 }
-tin
+
 .read h5{
     font-family: 'Plus Jakarta Sans';
     font-style: normal;

@@ -10,6 +10,8 @@
 body{
     margin: 0;
     overflow-x: hidden;
+    background: #DCF2ED;
+    position: relative;
 }
 
 header{
@@ -136,313 +138,123 @@ nav button:hover{
     z-index: 2;
 }
 
-.rand{
-    text-align: center;
-}
-
-.rand h6{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    color: #20484F;
-    margin: 106px 0 12px 0;
-}
-
-.rand h1{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    color: #072125;
-    margin-bottom: 55px;
-}
-
-.box{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 90px 0;
-}
-
-.coll{
-    width: 50%;
-}
-
-.read{
-    position: relative;
-}
-
-.read h3{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #072125;
-}
-
-.read p{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    padding-top: 12px;
-}
-
-.no{
-    display: flex;
-    margin-top: 44px;
-}
-
-.no svg{
-    margin-right: 24px;
-}
-
-.noo{
-    margin-top: 28px !important;
-}
-
-.ui{
-    position: absolute;
-    top: -31px;
-    right: 93px;
-}
-
-.ui1{
-    position: absolute;
-    bottom: 20px;
-    left: -102px;
-}
-
-.rot{
-    transform: rotate(180deg);
-}
-
-.text{
+.sign{
     width: 100%;
-    margin-top: 88px;
+    text-align: center;
     display: flex;
-    border-bottom: 2px solid rgba(32, 72, 79, 0.1);
-    padding-bottom: 48px;
+    justify-content: center;
+    margin: 130px 0;
 }
 
-.text h2{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+.sign-up{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px rgba(189, 189, 189, 0.11);
+    border-radius: 12px;
+    padding: 60px;
+    width: 590px;
+    position: relative;
+    z-index: 99;
 }
 
-.text p{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+#name{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    border-radius: 8px;
+    padding: 12px 24px 12px 16px;
+    margin-top: 84px;
 }
 
-.text button{
+#email{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    border-radius: 8px;
+    padding: 12px 24px 12px 16px;
+    margin-top: 68px;
+}
+
+#password{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    border-radius: 8px;
+    padding: 12px 24px 12px 16px;
+    margin-top: 68px;
+}
+
+#checkbox{
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+.sign-up div{
+    margin: 32px 0;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.sign-up div span{
+    padding-left: 5px;
+}
+
+.sign-up button{
     background: #20484F;
     border-radius: 8px;
-    border: none;
+    width: 100%;
     color: white;
     padding: 16px 36px 15px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;    
-    margin-left: auto;
-    width: 190px;
-    height: 58px;
-}
-
-.box1{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 48px;
-}
-
-.coll1{
-    width: 30%;
-}
-
-.colll1{
-    width: 70%;
-}
-
-.butt{
-    padding: 28px 0px 12px 36px;
-    background-color: white;
-    border: 1px solid rgba(32, 72, 79, 0.1);
-    border-radius: 12px;
-    margin-bottom: 12px;
-    
-}
-
-.active{
-    background-color: #20484F !important;
-    color: #FFFFFF !important;
-    border: none !important;
-}
-
-.readd1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
-}
-
-.cont-cont{
-    position: absolute;
-    visibility: hidden;
-}
-
-.current{
-    visibility: visible;
-}
-
-.oio p{
-    font-family: 'Shadows Into Light';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    position: absolute;
-    top: -15px;
-    right: -20px;
-}
-
-.oio svg{
-    position: absolute;
-    top: 0;
-    right: 115px;
-}
-
-.oi{
-    position: absolute;
-}
-
-.oi p{
-    font-family: 'Shadows Into Light';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    position: absolute;
-    left: 75px;
-    bottom: -35px;
-    width: 135px;
-}
-
-.oi svg{
-    position: absolute;
-    left: 100px;
-    bottom: 25px;
-}
-
-.oii p{
-    font-family: 'Shadows Into Light';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    position: absolute;
-    right: 150px;
-    bottom: -20px;
-}
-
-.oii svg{
-    position: absolute;
-    right: 210px;
-    bottom: 30px;
-}
-
-.box3{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 125px;
-}
-
-.box3 h3{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    margin-bottom: 12px;
-    margin-top: 77px;
-}
-
-.box3 p{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.coll3{
-    width: 25%;
-    padding: 0 20px;
-}
-
-.read3 h5{
-    margin: 33px 0 12px 0;
-}
-
-.rant{
-    width: 100%;
-    margin-bottom: 76px;
-}
-
-.red{
-    padding-left: 0 !important;
-}
-
-.divre{
-    transform: rotate(180deg);
-}
-
-.finalbox{
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url(../svgs/imgimg.svg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 45%;
-}
-
-.finalcoll{
-    width: 50%;
-}
-
-.finalread{
-    margin: 80px 0;
-}
-
-.finalread h2{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-}
-
-.finalread p{
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 23px;
-    margin-bottom: 159px;
-}
-
-.finalread button{
-    background: #B8E4DA;
-    padding: 16px 36px 15px;
     border: none;
-    border-radius: 8px;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    margin-bottom: 24px;
 }
+
+.sign-up button:hover{
+    background: #18363b;
+}
+
+.sign-up a{
+    color: #072125;
+}
+
+.adjust1{
+    position: absolute;
+    right: 60px;
+    top: 42%;
+}
+
+.adjust2{
+    position: absolute;
+    left: 60px;
+    top: 135px;
+}
+
+.adjust3{
+    position: absolute;
+    left: 60px;
+    bottom: 313px;
+}
+
+.one{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    z-index: -1;
+}
+
+.two{
+    position: absolute;
+    bottom: 385px;
+    right: 0;
+    z-index: 5;
+}
+
 
 footer{
+    position: relative;
+    z-index: 98;
     background-color: #072125;
 }
 
@@ -454,6 +266,23 @@ footer{
 .col-foot{
     width: 50%;
     margin-top: 69px;
+}
+
+.only{
+    display: flex;
+    gap: 10px;
+}
+
+.only p{
+    border: 1px solid #B8E4DA;
+    border-radius: 48px;
+    padding: 10px;
+}
+
+.only p a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .read-foot h3{
@@ -530,18 +359,6 @@ footer{
         margin-right: 70px;
     }
 
-    .rand h6{
-        margin-top: 40px;
-    }
-
-    .rand h1{
-        margin-bottom: 30px;
-    }
-
-    .randy h5{
-        margin-top: 50px;
-    }
-
 }
 
 @media (max-width: 1200px){
@@ -562,19 +379,6 @@ footer{
         margin-right: 28px;
     }
 
-    .box3{
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .coll3{
-        width: 50%;
-    }
-
-    .rant{
-        margin-bottom: 35px;
-    }
-
 }
 
 @media (max-width: 841px){
@@ -593,9 +397,10 @@ footer{
         z-index: 3;
     }
 
-    .rand h6 {
-        margin-top: 70px;
+    .one{
+        top: 0;
     }
+
 }
 
 @media (max-width: 767px){
@@ -608,10 +413,9 @@ footer{
         margin-right: 50px;
     }
 
-    .randy h5 {
-        margin-top: 30px;
+    .two{
+        bottom: 600px;
     }
-
 }
 
 @media (max-width: 700px){
@@ -623,16 +427,33 @@ footer{
     .read-foot{
         text-align: center;
     }
+
+    .only{
+        justify-content: center;
+    }
+
+    .two{
+        bottom: 515px;
+    }
 }
 
-@media (max-width: 575px){
-
-    .rand h1{
-        margin-bottom: 0;
+@media (max-width: 430px){
+    .sign-up{
+        padding: 30px;
     }
 
-    .randy h5 {
-        margin-top: 0px;
+    .adjust1 {
+        right: 35px;
+        top: 41%;
     }
 
+    .adjust2 {
+        left: 35px;
+        top: 100px;
+    }
+
+    .adjust3 {
+        left: 35px;
+        bottom: 280px;
+    }
 }
