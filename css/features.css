@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background: #FAFAFA;
+}
+
+.bi-list{
+    position: absolute;
+    scale: 2;
+    top: 30px;
+    left: 30px;
+    display: none;
+    border: 0.3px solid black;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(32, 72, 79, 1);
+}
+
+nav h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 21px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Plus Jakarta Sans';
+}
+
+nav h4 a{
+    text-decoration: none;
+    color: white;
+}
+nav h4 a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 24px 11px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 225, 225);
+    padding: 5px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(204, 202, 202);
+}
+
+nav div{
+   display: flex; 
+   padding: 17px;
+}
+
+nav button{
+    width: 82px;
+    height: 41px;
+    background: #B8E4DA;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+nav button:hover{
+    width: 82px;
+    height: 41px;
+    background: #96d1c3;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+
+.zed{
+    background-color: inherit;
+    color: white;
+    margin-left: 10px;
+}
+.zed:hover{
+    background-color: inherit;
+    color: rgb(223, 219, 219);
+    margin-left: 10px;
+}
+
+.divider{
+    background-image: url('https://s3-alpha-sig.figma.com/img/865a/2673/9bca2747544aee1db24a5bbdacee75c8?Expires=1678665600&Signature=lCtXZ8NBoAKp1U8B0bpEEZGJ8La7X4n9bJInHn3sSPmwvE~~5jHaUHjyhI4SDxcaZmA5EcadJp8oLhESzjEswC3~ERTVWj9dmqscvsTZqRsgcs7tUGHsQ-JeI7o92--g5hlOt9xEutED~qu5QQqpPj6otijqpFunCa1-aUNoNdx3W~dI~duhLGjGZzEZH5S2Cu3roiYPtjSW4SorSYAEwyFBspMhWYSexEj4n~SH04SrEObLkpEESDaZ-hP2DBPfK6RsMaumVdCX8oRCPZ~GGmWWrfyfedCoPbIqB7wCbIfAAFCAjajT5~wSxrolG34yvEX8uTAohmgpt1~LgKJcNw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: bottom;
+    background-color: #FAFAFA;;
+    width: 100%;
+    height: 107px;
+    border: none;
+}
+
+.collor{
+    background: #FAFAFA;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.rand{
+    text-align: center;
+}
+
+.rand h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #20484F;
+    margin: 106px 0 12px 0;
+}
+
+.rand h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #072125;
+    margin-bottom: 55px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px 0;
+}
+
+.coll{
+    width: 50%;
+}
+
+.read{
+    position: relative;
+}
+
+.read h3{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #072125;
+}
+
+.read p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.no{
+    display: flex;
+    margin-top: 44px;
+}
+
+.no svg{
+    margin-right: 24px;
+}
+
+.noo{
+    margin-top: 28px !important;
+}
+
+.ui{
+    position: absolute;
+    top: -31px;
+    right: 93px;
+}
+
+.ui1{
+    position: absolute;
+    bottom: 20px;
+    left: -102px;
+}
+
+.rot{
+    transform: rotate(180deg);
+}
+
+.text{
+    width: 100%;
+    margin-top: 88px;
+    display: flex;
+    border-bottom: 2px solid rgba(32, 72, 79, 0.1);
+    padding-bottom: 48px;
+}
+
+.text h2{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text button{
+    background: #20484F;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 16px 36px 15px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;    
+    margin-left: auto;
+    width: 190px;
+    height: 58px;
+}
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.coll1{
+    width: 30%;
+}
+
+.colll1{
+    width: 70%;
+}
+
+.butt{
+    padding: 28px 0px 12px 36px;
+    background-color: white;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    
+}
+
+.active{
+    background-color: #20484F !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+.readd1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.cont-cont{
+    position: absolute;
+    visibility: hidden;
+}
+
+.current{
+    visibility: visible;
+}
+
+.oio p{
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    top: -15px;
+    right: -20px;
+}
+
+.oio svg{
+    position: absolute;
+    top: 0;
+    right: 115px;
+}
+
+.oi{
+    position: absolute;
+}
+
+.oi p{
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    left: 75px;
+    bottom: -35px;
+    width: 135px;
+}
+
+.oi svg{
+    position: absolute;
+    left: 100px;
+    bottom: 25px;
+}
+
+.oii p{
+    font-family: 'Shadows Into Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    right: 150px;
+    bottom: -20px;
+}
+
+.oii svg{
+    position: absolute;
+    right: 210px;
+    bottom: 30px;
+}
+
+
+
+@media (max-width: 1400px){
+
+    .read-foot1 ul {
+        margin-right: 70px;
+    }
+
+    .rand h6{
+        margin-top: 40px;
+    }
+
+    .rand h1{
+        margin-bottom: 30px;
+    }
+
+    .randy h5{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .col-foot{
+        width: 40%;
+    }
+
+    .feet{
+        width: 60% !important;
+    }
+    
+}
+
+@media (max-width: 999px){
+
+    .read-foot1 ul {
+        margin-right: 28px;
+    }
+
+}
+
+@media (max-width: 841px){
+
+    nav{
+        display: none;
+    }
+
+    .bi-list{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        z-index: 3;
+    }
+
+    .rand h6 {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .col-foot{
+        width: 100% !important;
+    }
+
+    .read-foot1 ul {
+        margin-right: 50px;
+    }
+
+    .randy h5 {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .col-foot{
+        margin-top: 25px;
+    }
+
+    .read-foot{
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px){
+
+    .rand h1{
+        margin-bottom: 0;
+    }
+
+    .randy h5 {
+        margin-top: 0px;
+    }
+
+}

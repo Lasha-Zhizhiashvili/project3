@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background: #FAFAFA;
+}
+
+.bi-list{
+    position: absolute;
+    scale: 2;
+    top: 30px;
+    left: 30px;
+    display: none;
+    border: 0.3px solid black;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(32, 72, 79, 1);
+}
+
+nav h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 21px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Plus Jakarta Sans';
+}
+
+nav h4 a{
+    text-decoration: none;
+    color: white;
+}
+nav h4 a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 24px 11px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(226, 225, 225);
+    padding: 5px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(204, 202, 202);
+}
+
+nav div{
+   display: flex; 
+   padding: 17px;
+}
+
+nav button{
+    width: 82px;
+    height: 41px;
+    background: #B8E4DA;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+nav button:hover{
+    width: 82px;
+    height: 41px;
+    background: #96d1c3;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+
+.zed{
+    background-color: inherit;
+    color: white;
+    margin-left: 10px;
+}
+.zed:hover{
+    background-color: inherit;
+    color: rgb(223, 219, 219);
+    margin-left: 10px;
+}
+
+.divider{
+    background-image: url('https://s3-alpha-sig.figma.com/img/865a/2673/9bca2747544aee1db24a5bbdacee75c8?Expires=1678665600&Signature=lCtXZ8NBoAKp1U8B0bpEEZGJ8La7X4n9bJInHn3sSPmwvE~~5jHaUHjyhI4SDxcaZmA5EcadJp8oLhESzjEswC3~ERTVWj9dmqscvsTZqRsgcs7tUGHsQ-JeI7o92--g5hlOt9xEutED~qu5QQqpPj6otijqpFunCa1-aUNoNdx3W~dI~duhLGjGZzEZH5S2Cu3roiYPtjSW4SorSYAEwyFBspMhWYSexEj4n~SH04SrEObLkpEESDaZ-hP2DBPfK6RsMaumVdCX8oRCPZ~GGmWWrfyfedCoPbIqB7wCbIfAAFCAjajT5~wSxrolG34yvEX8uTAohmgpt1~LgKJcNw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: bottom;
+    background-color: #FAFAFA;;
+    width: 100%;
+    height: 107px;
+    border: none;
+}
+
+.collor{
+    background: #FAFAFA;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.rand{
+    text-align: center;
+}
+
+.rand h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #20484F;
+    margin: 106px 0 12px 0;
+}
+
+.rand h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #072125;
+    margin-bottom: 55px;
+}
+
+.text h2{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.text p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #20484F;
+    margin-bottom: 69px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.coll{
+    width: 25%;
+    gap: 10px;
+}
+
+.read{
+    width: 285px;
+    height: 700px;
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 72, 79, 0.2);
+    border-radius: 8px;
+    padding: 28px;
+}
+
+.reed{
+    background: #20484F;
+    border: none;
+}
+
+.reed h5{
+    color: #FFFFFF !important;
+}
+
+.reed h3{
+    color: #FFFFFF !important;
+}
+
+.reed h6{
+    color: #FFFFFF !important;
+}
+
+.reed button{
+    color: rgba(7, 33, 37, 1) !important;
+    background: #B8E4DA !important;
+}
+.reed button:hover{
+    color: rgba(7, 33, 37, 1) !important;
+    background: #9bc2b9 !important;
+}
+
+.reed ul li{
+    color: #FFFFFF;
+}
+
+.read h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(184, 228, 218, 1);
+}
+
+.read h3{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #20484F;
+    margin: 32px 0 16px 0;
+}
+
+.read h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #20484F;
+}
+
+.read button{
+    color: white;
+    padding: 16px 36px 15px;
+    background: #20484F;
+    border-radius: 8px;
+    border: none;
+    width: 229px;
+    height: 58px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;    
+    margin: 32px 0;
+}
+.read button:hover{
+    background: #1a393f;
+}
+
+.read ul{
+    padding-left: 0;
+}
+
+.read ul li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.read ul li span{
+    padding-left: 16px;
+}
+
+.seco{
+    transform: rotate(180deg);
+}
+
+.randy{
+    width: 100%;
+    padding-left: 40px;
+}
+
+.randy h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #20484F;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+.randy h2{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #072125;
+    margin-bottom: 48px;
+}
+
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coll2{
+    width: 100%;
+}
+
+.read2{
+    display: flex;
+}
+
+.only h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #20484F;    
+    padding-left: 28px;
+    padding-bottom: 13px;
+}
+
+.only2 h5{
+    padding-left: 28px;
+    padding-bottom: 13px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.read2 ul{
+    padding-left: 0;
+}
+
+.read2 ul li{
+    list-style: none;
+    padding: 12px 28px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.read2 ul li:nth-child(2n + 1){
+    background-color: white;
+}
+
+.only{
+    width: 50%;
+}
+
+.only2{
+    width: 50%;
+    position: relative;
+}
+
+.only2 ul li{
+    gap: 191px;
+    display: flex;
+    height: 48px;
+}
+
+.hhh{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.hhhh{
+    position: absolute;
+    top: 0;
+    right: 155px;
+}
+
+.hgh{
+    opacity: 0;
+    pointer-events: none;
+    margin-top: 48px;
+}
+
+.pad{
+    margin-top: 48px;
+}
+
+.ranbut{
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+    margin-bottom: 99px;
+}
+
+.ranbut button{
+    background: #20484F;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: none;
+    color: white;
+    width: 171px;
+    height: 41px;
+    margin: 0 20px;
+}
+.ranbut button:hover{
+    background: #19383d;
+}
+
+.dif{
+    background: #FFFFFF !important;
+    border: 1px solid rgba(32, 72, 79, 0.1) !important;
+    color: black !important;
+}
+.dif:hover{
+    background: #f3f0f0 !important;
+
+}
+
+.box-for{
+    width: 100%;
+    text-align: center;
+}
+
+.box-for h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #20484F;
+    margin-top: 68px;
+    margin-bottom: 28px;
+}
+
+.box-for h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #072125;
+}
+
+.box-for button{
+    background: #20484F;
+    border-radius: 8px;
+    padding: 16px 36px 15px;
+    border: none;
+    color: white;
+    margin: 60px 0;
+}
+
+footer{
+    background-color: #072125;
+}
+
+.box-foot{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-foot{
+    width: 50%;
+    margin-top: 69px;
+}
+
+.read-foot h3{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 39px;
+}
+
+.read-foot p{
+    margin-bottom: 25px;
+}
+
+.read-foot a{
+    text-decoration: none;
+    color: rgba(220, 242, 237, 1);
+}
+
+.read-foot1{
+    display: flex;
+}
+
+.read-foot1 ul {
+    padding-left: 0;
+    margin-right: 80px;
+}
+
+.read-foot1 ul a{
+    text-decoration: none;
+}
+
+.read-foot1 ul h5{
+    color: white;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.read-foot1 ul li{
+    color: rgba(220, 242, 237, 1) ;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.last{
+    height: 53px;
+    text-align: center;
+    border-top: 1px solid #B8E4DA;
+    margin-top: 30px;
+}
+
+.last p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.last p a{
+    text-decoration: none;
+    color: rgba(220, 242, 237, 1);
+}
+
+@media (max-width: 1400px){
+
+    .read-foot1 ul {
+        margin-right: 70px;
+    }
+
+    .little{
+        top: 105px;
+        right: 110px;
+    }
+
+    .text h2{
+        margin-top: 10px;
+    }
+
+    .rand h6{
+        margin-top: 40px;
+    }
+
+    .rand h1{
+        margin-bottom: 30px;
+    }
+
+    .coll{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .read{
+        margin-left: 15%;
+    }
+
+    .box{
+        margin-bottom: 40px;
+    }
+
+    .randy h5{
+        margin-top: 50px;
+    }
+
+    .hhhh{
+        right: 65px;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+    .col-foot{
+        width: 40%;
+    }
+
+    .feet{
+        width: 60% !important;
+    }
+
+    .hhhh{
+        right: -10px;
+    }
+
+    .only2 ul li {
+        gap: 182px;
+    }
+    
+}
+
+@media (max-width: 999px){
+
+    .read-foot1 ul {
+        margin-right: 28px;
+    }
+
+    .only2 ul li {
+        gap: 122px;
+    }
+
+    .hhhh{
+        right: 5px;
+    }
+
+    .hhh{
+        left: 115px;
+    }
+
+    .box-for button {
+        margin: 40px 0;
+    }
+
+}
+
+@media (max-width: 841px){
+
+    nav{
+        display: none;
+    }
+
+    .bi-list{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        z-index: 3;
+    }
+
+    .rand h6 {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 767px){
+
+    .col-foot{
+        width: 100% !important;
+    }
+
+    .read-foot1 ul {
+        margin-right: 50px;
+    }
+
+    .coll{
+        width: 100%;
+    }
+
+    .read{
+        width: 100%;
+        margin-left: 0;
+        height: fit-content;
+    }
+
+    .box{
+        margin-bottom: 0;
+    }
+
+    .randy h5 {
+        margin-top: 30px;
+    }
+
+    .hhh {
+        left: 68px;
+    }
+
+    .only2 ul li {
+        gap: 77px;
+    }
+
+    .ranbut button {
+        width: 120px;
+        margin: 0px; 
+    }
+
+    .pad {
+        margin-top: 25px;
+    }
+
+    .hgh {
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 700px){
+
+    .col-foot{
+        margin-top: 25px;
+    }
+
+    .read-foot{
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px){
+
+    .rand h1{
+        margin-bottom: 0;
+    }
+
+    .text p{
+        margin-bottom: 50px;
+    }
+
+    .randy h5 {
+        margin-top: 0px;
+    }
+
+    .only{
+        width: 40%;
+    }
+
+    .only2{
+        width: 60%;
+    }
+
+    .hhhh {
+        right: 60px;
+    }
+
+    .read2 ul li{
+        font-size: 15px;
+    }
+
+    .hhhh {
+        right: 75px;
+    }
+
+    .only2 ul li{
+        height: 47px;
+    }
+}
+
+@media (max-width: 509px){
+    .only{
+        width: 50%;
+    }
+
+    .only2{
+        width: 50%;
+    }
+
+    .only2 h5{
+        padding-left: 0;
+    }
+
+    .hhhh {
+        right: 5px;
+    }
+
+    .read2 ul li {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 465px){
+    .only{
+        width: 45%;
+    }
+
+    .only2{
+        width: 55%;
+    }
+
+    .only h5{
+        padding-left: 10px;
+    }
+
+    .only2 h5{
+        font-size: 14px;
+        padding-bottom: 17px;
+    }
+
+    .only2 ul li {
+        gap: 63px;
+    }
+
+    .ranbut {
+        margin-bottom: 45px;
+    }
+
+    .box-for h5 {
+        margin-top: 35px;
+        margin-bottom: 14px;
+    }
+
+    
+    .ranbut button {
+        width: 114px;
+    }
+
+    .ranbut{
+        padding-right: 0;
+    }
+}
+
+
+
