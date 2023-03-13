@@ -298,6 +298,7 @@ nav button:hover{
 
 .current{
     visibility: visible;
+    position: relative;
 }
 
 .oio p{
@@ -358,6 +359,10 @@ nav button:hover{
     flex-wrap: wrap;
     margin-top: 100px;
     margin-bottom: 125px;
+}
+
+img{
+    max-width: 100%;
 }
 
 .box3 h3{
@@ -530,17 +535,7 @@ footer{
         margin-right: 70px;
     }
 
-    .rand h6{
-        margin-top: 40px;
-    }
-
-    .rand h1{
-        margin-bottom: 30px;
-    }
-
-    .randy h5{
-        margin-top: 50px;
-    }
+    
 
 }
 
@@ -554,6 +549,44 @@ footer{
         width: 60% !important;
     }
     
+    .coll{
+        width: 100%;
+        text-align: center;
+    }
+
+    .ui1{
+        left: 100px;
+    }
+
+    .ui {
+        top: -45px;
+        right: 125px;
+    }
+
+    .box{
+        padding: 30px 0;
+    }
+
+    .read h3 {
+        margin-top: 40px;
+    }
+
+    .text{
+        margin-top: 30px;
+    }
+
+    .butt {
+        padding: 18px 0px 12px 18px;
+    }
+
+    .cont-cont {
+        transform: scale(0.8);
+    }
+
+    .box3{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 999px){
@@ -564,15 +597,64 @@ footer{
 
     .box3{
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
 
     .coll3{
         width: 50%;
     }
 
+    .ui1 {
+        left: -20px;
+    }
+
+    .ui {
+        top: -45px;
+        right: 65px;
+    }
+
+    .text{
+        padding-bottom: 20px;
+    }
+
+    .coll1{
+        width: 100%;
+    }
+
+    .colll1{
+        width: 100%;
+    }
+
+    .read1{
+        display: flex;
+    }
+
+    .butt {
+        margin-bottom: 0px;
+    }
+
+    .box3 h3 {
+        margin-top: 45px;
+    }
+
     .rant{
-        margin-bottom: 35px;
+        margin-bottom: 40px;
+    }
+
+    .finalread p {
+        margin-bottom: 60px;
+    }
+
+    .finalbox {
+        background-size: 100%;
+    }
+
+    .finalread h2 {
+        color: white;
+    }
+
+    .finalbox {
+        background-size: cover;
     }
 
 }
@@ -593,9 +675,7 @@ footer{
         z-index: 3;
     }
 
-    .rand h6 {
-        margin-top: 70px;
-    }
+    
 }
 
 @media (max-width: 767px){
@@ -604,12 +684,70 @@ footer{
         width: 100% !important;
     }
 
-    .read-foot1 ul {
-        margin-right: 50px;
+    .ui1 {
+        left: -70px;
+        bottom: -50px;
     }
 
-    .randy h5 {
-        margin-top: 30px;
+    .ui {
+        top: -45px;
+        right: -40px;
+    }
+
+    .text {
+        display: block;
+    }
+
+    .bnm{
+        padding: 0 40px 0 0;
+    }
+
+    .rand h1 {
+        margin-bottom: 0px;
+    }
+
+    .read1{
+        flex-wrap: wrap;
+    }
+
+    .butt{
+        width: 48%;
+        margin: 5px;
+    }
+
+    .cont-cont {
+        transform: scale(1);
+        margin: 20px 0;
+    }
+
+    .oio svg {
+        top: 0;
+        right: 20%;
+    }
+
+    .oii svg {
+        right: 30%;
+        bottom: -15px;
+    }
+
+    .oii p {
+        right: 15%;
+        bottom: -55px;
+    }
+
+    .oi svg {
+        left: 70px;
+        bottom: -15px;
+    }
+
+    .oi p {
+        bottom: -60px;
+        left: 40px;
+        width: 135px;
+    }
+
+    .box3 h3 {
+        margin-top: 80px;
     }
 
 }
@@ -625,14 +763,39 @@ footer{
     }
 }
 
-@media (max-width: 575px){
+@media (max-width: 650px){
 
-    .rand h1{
-        margin-bottom: 0;
+    .pop svg{
+        transform: scale(0.8);
+        max-width: 100%;
     }
 
-    .randy h5 {
-        margin-top: 0px;
+    .cont-cont {
+        max-width: 100%;
+    }
+
+    .finalread {
+        margin: 20px 0;
+    }
+
+    .finalcoll {
+        width: 100%;
     }
 
 }
+
+@media (max-width: 525px){
+
+    .finalread p {
+        margin-bottom: 20px;
+    }
+
+    .butt{
+        width: 100%;
+        margin: 5px;
+    }
+
+}
+
+
+
